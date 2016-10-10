@@ -1,3 +1,9 @@
+- [Training Support Vector Machines: an Application to Face Detection](http://web.mit.edu/rfreund/www/10.1.1.9.6021.pdf)
+
+  Edgar Osunay, Robert Freund, Federico Girosiy - CVPR'97<br>
+  CV, SVM<br>
+  2 Generate the support vectors and then use decomposition algorithm (suggested by paper)<br>
+
 - [Learning Deep Architectures for AI](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 
   Yoshua Bengio - Technical Report 1312 <br>
