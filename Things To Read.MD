@@ -1,3 +1,3 @@
-- [Columbia University Reading List](http://llcao.net/cu-deeplearning15/reading.html) This is for the course - *Deep Learning for Computer Vision and Natural Language Processing* of Columbia University.
-- [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/) Stanford's Course.
-- [Reading lists for new MILA students](https://docs.google.com/document/d/1IXF3h0RU5zz4ukmTrVKVotPQypChscNGf5k6E25HGvA/edit#)
+- [ ] [Columbia University Reading List](http://llcao.net/cu-deeplearning15/reading.html) This is for the course - *Deep Learning for Computer Vision and Natural Language Processing* of Columbia University.
+- [x] [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/) Stanford's Course.
+- [ ] [Reading lists for new MILA students](https://docs.google.com/document/d/1IXF3h0RU5zz4ukmTrVKVotPQypChscNGf5k6E25HGvA/edit#)
