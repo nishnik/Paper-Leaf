@@ -9,6 +9,8 @@
   Yoshua Bengio - Technical Report 1312 <br>
   DL<br>
   2 The main conclusion of this section is that functions that can be compactly represented by a depth k architecture might require an exponential number of computational elements to be represented by a depth k − 1 architecture.<br>
+  3 *TODO*<br>
+  4 Distributed Representations are better than one hot representation in tackling the limitation of local generalization.<br>
 
 - [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
   
