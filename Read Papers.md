@@ -1,3 +1,15 @@
+- [Shallow Networks for High-Accuracy Road Object-Detection](https://arxiv.org/pdf/1606.01561v1.pdf)
+
+  Khalid Ashraf, Bichen Wu, Forrest N. Iandola, Mattthew W. Moskewicz, Kurt Keutzer - <br>
+  CV, CNN, DL<br>
+  This paper emphasized on two things: 1.) Bigger input images lead to higher accuracy and 2.) Shallow models can deliver high accuracy.<br>
+
+- [DeepLogo: Hitting Logo Recognition with the Deep Neural Network Hammer](https://arxiv.org/pdf/1510.02131v1.pdf)
+
+  IANDOLA, SHEN, GAO, KEUTZER - 2015<br>
+  CV, CNN, DL<br>
+  Modification on GoogleLeNet for logo classification<br>
+
 - [Training Support Vector Machines: an Application to Face Detection](http://web.mit.edu/rfreund/www/10.1.1.9.6021.pdf)
 
   Edgar Osunay, Robert Freund, Federico Girosiy - CVPR'97<br>
