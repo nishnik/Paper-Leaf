@@ -1,3 +1,22 @@
+- [Ask Me Anything: Dynamic Memory Networks for Natural Language Processing](https://arxiv.org/pdf/1506.07285v5.pdf)
+  Ankit Kumar, Peter Ondruska, Mohit Iyyer, James Bradbury, Ishaan Gulrajani, Victor Zhong, Romain Paulus, Richard Socher <br>
+  NLP, GRU, DL
+  Summary is in the next paper.
+
+- [Dynamic Memory Networks for Visual and Textual Question Answering](https://arxiv.org/abs/1603.01417)
+  Caiming Xiong*, Stephen Merity*, Richard Socher, MetaMind, Palo Alto, CA USA<br>
+  NLP, GRU, DL<br>
+  Initallly proposed Dynamic Memory Network has:
+  1.) Input module: This module processes the input data about which a question is being asked into a set of vectors termed facts. This module consists of GRU over input words.
+  2.) Question Module: Represention of question as a vector. (final hidden state of the GRU over the words in the question)
+  3.) Episodic Memory Module: Retrieves the information required to answer the question from the input facts (input module). Consists of two parts- i.) attention mechanism ii.) memory update mechanism. To get it more intuitive: When we see a question, we only have the question in our memory(i.e. the initial memory vector == question vector), then based on our question and previous memory we pass over the input facts and generate a contextual vector (this is the work of attention mechanism), then memory is updated again based upon the contextual vector and the previous memory, this is repeated again and again.
+  4.) Answer Module: The answer module uses the question vector and the most updated memory from 3rd module to generate answer. (a linear layer with softmax activation for single word answers, RNNs for complicated answers)
+  Improved DMN+:
+  The input module used single GRU to process the data. Two shortcomings: i.) The GRU only allows sentences to have context from sentences before them, but not after them. This prevents information propagation from future sentences. Therfore bi-directional GRUs were used in DMN+. ii.) the supporting sentences may be too far away from each other on a word level to allow for these distant sentences to interact through the word level GRU. In DMN+ they used sentence embeddings rather than word embeddings. And then used the GRUs to interact between the sentence embeddings(input fusion layer).
+  For Visual Question Answering:
+  Split the image into parts, consider them parallel to sentences in input module for text. Linear layer with tanh activation to project the regional vectors(from images) to textual feature space (for text based question answering they used positional encoding for embedding sentences). Again use bi-directional GRUs to form the facts.
+
+
 - [Shallow Networks for High-Accuracy Road Object-Detection](https://arxiv.org/pdf/1606.01561v1.pdf)
 
   Khalid Ashraf, Bichen Wu, Forrest N. Iandola, Mattthew W. Moskewicz, Kurt Keutzer - <br>
