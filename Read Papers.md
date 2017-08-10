@@ -1,12 +1,32 @@
+- [Poincaré Embeddings for Learning Hierarchical Representations](https://arxiv.org/abs/1705.08039)
+  Maximilian Nickel, Douwe Kiela <br>
+  NLP <br/>
+  Summary at [blog](https://medium.com/towards-data-science/facebook-research-just-published-an-awesome-paper-on-learning-hierarchical-representations-34e3d829ede7)
+
+- [Opinion Mining with Deep Recurrent Neural Networks](https://www.cs.cornell.edu/~oirsoy/files/emnlp14drnt.pdf)
+  Ozan Irsoy and Claire Cardie <br>
+  DL, RNN, NLP <br>
+  Summary at [blog](https://medium.com/towards-data-science/paper-summary-opinion-mining-with-deep-recurrent-neural-networks-1fa791098fa5)
+
+- [ A Strong Baseline for Learning Cross-Lingual Word Embeddings from Sentence Alignments](https://arxiv.org/abs/1608.05426)
+  Omer Levy, Anders Søgaard, Yoav Goldberg <br>
+  NLP <br/>
+  Summary at [blog](https://medium.com/towards-data-science/cross-lingual-word-embeddings-what-they-are-af7987df6670)
+
+- [Character-level Convolutional Networks for Text Classification](https://arxiv.org/abs/1509.01626)
+  Xiang Zhang, Junbo Zhao, Yann LeCun <br>
+  NLP, DL <br/>
+  Summary at [blog](https://medium.com/@nishantnikhil/paper-summary-character-level-convolutional-networks-for-text-classification-6edf86e65106)
+
 - [Using very deep autoencoders for content-based image retrieval](http://www.cs.toronto.edu/~fritz/absps/esann-deep-final.pdf)
-  Krizhevsky, Alex and Hinton, Geoffrey E. 
+  Krizhevsky, Alex and Hinton, Geoffrey E. <br>
   CV, DL <br/>
-  Summary at http://www.shortscience.org/paper?bibtexKey=conf/esann/KrizhevskyH11#nishnik
+  Summary at [shortscience](http://www.shortscience.org/paper?bibtexKey=conf/esann/KrizhevskyH11#nishnik)
 
 - [Learning semantic representations using convolutional neural networks for web search](https://pdfs.semanticscholar.org/8478/c0f46dd30ef7f4052145983d6d315c2e1f17.pdf)
-  Shen, Yelong and He, Xiaodong and Gao, Jianfeng and Deng, Li and Mesnil, Grégoire 
+  Shen, Yelong and He, Xiaodong and Gao, Jianfeng and Deng, Li and Mesnil, Grégoire <br>
   NLP, DL <br/>
-  Summary at http://www.shortscience.org/paper?bibtexKey=conf/www/ShenHGDM14#nishnik
+  Summary at [shortscience](http://www.shortscience.org/paper?bibtexKey=conf/www/ShenHGDM14#nishnik)
 
 - [Ask Me Anything: Dynamic Memory Networks for Natural Language Processing](https://arxiv.org/pdf/1506.07285v5.pdf)
   Ankit Kumar, Peter Ondruska, Mohit Iyyer, James Bradbury, Ishaan Gulrajani, Victor Zhong, Romain Paulus, Richard Socher <br>
