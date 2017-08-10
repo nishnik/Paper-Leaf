@@ -1,3 +1,13 @@
+- [Tutorial on Variational Autoencoders](https://arxiv.org/pdf/1606.05908.pdf)
+  Carl Doersch <br>
+  VAE, DL <br>
+  Not a conference published research paper, but informative about VAEs.
+
+- [Genetic CNN](https://arxiv.org/abs/1703.01513)
+  Lingxi Xie, Alan Yuille <br>
+  DL <br>
+  Represented connection between Conv layers as binary numbers which can eventually represent networks like VGG or ResNet. As for k layered network, number of connections is of order 2^k. So to effectively search this space, they have used Genetic Algorithm.
+
 - [Poincaré Embeddings for Learning Hierarchical Representations](https://arxiv.org/abs/1705.08039)
   Maximilian Nickel, Douwe Kiela <br>
   NLP <br/>
