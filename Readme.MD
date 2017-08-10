@@ -1,3 +1,8 @@
+- [An Effective Training Method For Deep Convolutional Neural Network](https://arxiv.org/abs/1708.01666)
+  Yang Jiang, Zeyang Dou, Jie Cao, Kun Gao, Xi Chen <br>
+  DL <br>
+  Learn non-linearity (a variant of Relu) using backpropagation, better training
+
 - [Tutorial on Variational Autoencoders](https://arxiv.org/pdf/1606.05908.pdf)
   Carl Doersch <br>
   VAE, DL <br>
