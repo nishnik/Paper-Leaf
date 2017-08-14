@@ -1,3 +1,8 @@
+- [Effective Dimensionality Reduction for Word Embeddings](https://arxiv.org/abs/1708.03629)
+  Vikas Raunak<br>
+  ML, NLP<br>
+  A nice post processing method, and simple PCA. Idea: experiment for PCA, or images
+
 - [Iterative Deep Convolutional Encoder-Decoder Network for Medical Image Segmentation](https://arxiv.org/abs/1708.03431)
   Jung Uk Kim, Hak Gu Kim, Yong Man Ro<br>
   DL, CV, Medical<br>
