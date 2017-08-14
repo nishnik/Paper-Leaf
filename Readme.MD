@@ -1,3 +1,8 @@
+- [Iterative Deep Convolutional Encoder-Decoder Network for Medical Image Segmentation](https://arxiv.org/abs/1708.03431)
+  Jung Uk Kim, Hak Gu Kim, Yong Man Ro<br>
+  DL, CV, Medical<br>
+  Read it for the new error function based on dice coefficient and the iterative algorithm. SOR. 
+
 - [An Effective Training Method For Deep Convolutional Neural Network](https://arxiv.org/abs/1708.01666)
   Yang Jiang, Zeyang Dou, Jie Cao, Kun Gao, Xi Chen <br>
   DL <br>
