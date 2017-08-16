@@ -4,9 +4,9 @@
   Paper on speech recognition. Key points from paper<br>
   1.) One disadvantage of LSTM cells is that they require computing and storing multiple gating neuron responses at each step. Since the forward and backward recurrences are sequential, this small additional cost can become a computational bottleneck.<br>
   2.) Used language model to improve the results from RNN. <br>
-  3.) Data parallelism as the next paper.
-  4.) Model parallelism. Model is sequential, and would need h_f and h_b for the bidirectional RNN. When computing the recurrent layer activations, the first GPU begins computing the forward activations h(f) , while the second begins computing the backward activations h(b). At the mid-point (t = T(i)/2), the two GPUs exchange the intermediate activations, h(f) at T/2 and h(b) at T/2 and swap roles. The first GPU then finishes the backward computation of h(b) and the second GPU finishes the forward computation of h(f).
-  5.) Why Model Parallelism: Data parallelism yields training speedups for modest multiples of the minibatch size (e.g., 2 to 4), but faces diminishing returns as batching more examples into a single gradient update fails to improve the training convergence rate.
+  3.) Data parallelism as the next paper.<br>
+  4.) Model parallelism. Model is sequential, and would need h_f and h_b for the bidirectional RNN. When computing the recurrent layer activations, the first GPU begins computing the forward activations h(f) , while the second begins computing the backward activations h(b). At the mid-point (t = T(i)/2), the two GPUs exchange the intermediate activations, h(f) at T/2 and h(b) at T/2 and swap roles. The first GPU then finishes the backward computation of h(b) and the second GPU finishes the forward computation of h(f).<br>
+  5.) Why Model Parallelism: Data parallelism yields training speedups for modest multiples of the minibatch size (e.g., 2 to 4), but faces diminishing returns as batching more examples into a single gradient update fails to improve the training convergence rate.<br>
   6.) Captured Lombard effect in training data: speakers actively change the pitch or inflections of their voice to overcome noise around them.
 
 - [Bandwidth optimal all-reduce algorithms for clusters of workstations](http://www.sciencedirect.com/science/article/pii/S0743731508001767) <br>
