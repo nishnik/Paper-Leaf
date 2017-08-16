@@ -1,3 +1,8 @@
+- [Bandwidth optimal all-reduce algorithms for clusters of workstations](http://www.sciencedirect.com/science/article/pii/S0743731508001767) <br>
+  Pitch Patarasuk, Xin Yuan <br>
+  HPC <br>
+  How to use different computing resources together. A nice explanation [here](http://research.baidu.com/bringing-hpc-techniques-deep-learning/).
+
 - [Effective Dimensionality Reduction for Word Embeddings](https://arxiv.org/abs/1708.03629)
   Vikas Raunak<br>
   ML, NLP<br>
