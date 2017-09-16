@@ -1,3 +1,8 @@
+- [Densely Connected Convolutional Networks](https://arxiv.org/pdf/1608.06993.pdf) <br>
+  Gao Huang, Zhuang Liu, Kilian Q. Weinberger, Laurens van der Maaten <br>
+  Best paper CVPR 2017, Every layer connected to every subsequent layer, SOR without data augmentation. <br>
+  Two types of proposed architecture, Densenet and DensenetBC which has 1x1 convolutional bottleneck layers, and compresses the number of channels at each transition layer by 0.5. <br>
+
 Bitcoin: A Peer-to-Peer Electronic Cash System 
 - [Bitcoin: A Peer-to-Peer Electronic Cash System ](https://bitcoin.org/en/bitcoin-paper) <br>
   Anonymous <br>
