@@ -1,9 +1,16 @@
+- [Swish: a Self-Gated Activation Function](https://arxiv.org/abs/1710.05941) <br>
+  Prajit Ramachandran, Barret Zoph, Quoc V. Le <br>
+  New activation function `x.sigmoid(x)` <br> Key points from paper: <br>
+  1.) The success of Swish implies that the gradient preserving property of ReLU (i.e., having a derivative of 1 when x > 0) may no longer be a distinct advantage in modern architectures.<br>
+  2.) Activation functions should be unbounded<br>
+  3.) But being bounded below is desirable as it works as a regularizer<br>
+  Nice discussion on reddit: <br>
+  1.) [Combining with selu](https://www.reddit.com/r/MachineLearning/comments/773epu/r_swish_a_selfgated_activation_function_google/doj24ps/) <br>
 - [Densely Connected Convolutional Networks](https://arxiv.org/pdf/1608.06993.pdf) <br>
   Gao Huang, Zhuang Liu, Kilian Q. Weinberger, Laurens van der Maaten <br>
   Best paper CVPR 2017, Every layer connected to every subsequent layer, SOR without data augmentation. <br>
   Two types of proposed architecture, Densenet and DensenetBC which has 1x1 convolutional bottleneck layers, and compresses the number of channels at each transition layer by 0.5. <br>
 
-Bitcoin: A Peer-to-Peer Electronic Cash System 
 - [Bitcoin: A Peer-to-Peer Electronic Cash System ](https://bitcoin.org/en/bitcoin-paper) <br>
   Anonymous <br>
   Bitcoin original paper<br>
