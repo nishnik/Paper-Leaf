@@ -1,3 +1,7 @@
+### Have a look at [issues](https://github.com/nishnik/Paper-Leaf/issues) for recent reads.
+
+### Summaries of papers read before I started tracking them in issues
+
 - [A Convolutional Neural Network for Modelling Sentences](https://arxiv.org/abs/1404.2188)<br>
   Nal Kalchbrenner, Edward Grefenstette, Phil Blunsom <br/>
   1.) Applying the weights m in a wide convolution has some advantages over applying them in a narrow one. A wide convolution ensures that all weights in the filter reach the entire sentence, including the words at the margins. This is particularly significant when m is set to a relatively large value such as 8 or 10.<br>
